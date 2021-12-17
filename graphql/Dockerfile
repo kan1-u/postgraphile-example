@@ -1,0 +1,2 @@
+FROM graphile/postgraphile:4-12
+RUN yarn add postgraphile-plugin-connection-filter @graphile-contrib/pg-simplify-inflector @graphile-contrib/pg-order-by-related @graphile/subscriptions-lds @graphile/pg-pubsub
